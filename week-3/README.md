@@ -10,5 +10,5 @@ Jelaskan kebutuhan yang harus ada sebelum memulai, seperti:
 - Dll
 
 # Penyelesaian
-- [Setup git & Ssh key](setup-git-dan-ssh-key.md)
-- [Setup database & Deploy aplikasi backend](setup-database-dan-deploy-aplikasi-backend.md)
+- [Setup docker & Membuat custom docker image](setup-docker-dan-membuat-custom-docker-image.md)
+- [Setup CI/CD & Notifikasi](setup-ci-cd-dan-notifikasi.md)
