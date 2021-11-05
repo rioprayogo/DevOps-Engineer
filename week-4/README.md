@@ -10,5 +10,5 @@ Jelaskan kebutuhan yang harus ada sebelum memulai, seperti:
 - Dll
 
 # Penyelesaian
-- [Setup monitoring](week-4/setup-monitoring)
-- [Setup ansible & Membuat ansible playbook untuk konfigurasi server](week-4/setup-ansible-dan-membuat-ansible-playbook-untuk-konfigurasi-server)
+- [Setup monitoring](setup-monitoring.md)
+- [Setup ansible & Membuat ansible playbook untuk konfigurasi server](setup-ansible-dan-membuat-ansible-playbook-untuk-konfigurasi-server.md)

@@ -10,5 +10,5 @@ Jelaskan kebutuhan yang harus ada sebelum memulai, seperti:
 - Dll
 
 # Penyelesaian
-- [Setup ubuntu server di VMWare & Install aplikasi nginx](week-1/setup-ubuntu-server-di-vmware-dan-install-aplikasi-nginx)
-- [Setup ubuntu server di AWS & Deploy aplikasi frontend](week-1/setup-ubuntu-server-di-aws-dan-deploy-aplikasi-frontend)
+- [Setup ubuntu server di VMWare & Install aplikasi nginx](setup-ubuntu-server-di-vmware-dan-install-aplikasi-nginx.md)
+- [Setup ubuntu server di AWS & Deploy aplikasi frontend](setup-ubuntu-server-di-aws-dan-deploy-aplikasi-frontend.md)

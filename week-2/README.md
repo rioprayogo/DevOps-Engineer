@@ -10,5 +10,5 @@ Jelaskan kebutuhan yang harus ada sebelum memulai, seperti:
 - Dll
 
 # Penyelesaian
-- [Setup git & Ssh key](week-2/setup-git-dan-ssh-key)
-- [Setup database & Deploy aplikasi backend](week-2/setup-database-dan-deploy-aplikasi-backend)
+- [Setup git & Ssh key](setup-git-dan-ssh-key.md)
+- [Setup database & Deploy aplikasi backend](setup-database-dan-deploy-aplikasi-backend.md)
