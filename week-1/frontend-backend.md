@@ -11,7 +11,8 @@ git clone https://github.com/rioprayogo/wayshub-frontend.git
 ```sh
 git clone https://github.com/rioprayogo/wayshub-backend.git
 ```
-![logo](https://github.com/rioprayogo/DevOps-Engineer/blob/main/week-1/asset/app1.png)
+![logo](https://raw.githubusercontent.com/rioprayogo/DevOps-Engineer/main/week-1/assets/app1.png)
+
 
 * Persiapkan engine untuk menjalankan aplikasi
 **nvm**
@@ -39,7 +40,8 @@ npm install sequelize-cli -g
 ```sh
 npx sequelize db:migrate
 ```
-![logo](https://github.com/rioprayogo/DevOps-Engineer/blob/main/week-1/asset/app8.png)
+![logo](https://github.com/rioprayogo/DevOps-Engineer/blob/main/
+week-1/asset/app8.png)
 ![logo](https://github.com/rioprayogo/DevOps-Engineer/blob/main/week-1/asset/app9.png)
 
 * Gunakan pm2 agar aplikasi dapat berjalan di background
