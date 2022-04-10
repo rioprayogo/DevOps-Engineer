@@ -7,14 +7,14 @@
 sudo apt install mysql-server
 ```
 - jalankan `sudo systemctl status mysql.service` untuk mengetahui status dari service mysql
- ![logo](https://github.com/rioprayogo/DevOps-Engineer/blob/main/week-1/asset/db1.png)
+ ![logo](https://raw.githubusercontent.com/DevOps-Engineer/blob/main/week-1/asset/db1.png)
 
  * Langkah selanjutnya setelah melakukan install mysql pastikan menjalankan `sudo mysql_secure_installation` untuk mengamankan database
  ```sh
 sudo mysql_secure_installation
 ```
- ![logo](https://github.com/rioprayogo/DevOps-Engineer/blob/main/week-1/asset/db2.png)
- ![logo](https://github.com/rioprayogo/DevOps-Engineer/blob/main/week-1/asset/db3.png)
+ ![logo](https://raw.githubusercontent.com/DevOps-Engineer/blob/main/week-1/asset/db2.png)
+ ![logo](https://raw.githubusercontent.com/DevOps-Engineer/blob/main/week-1/asset/db3.png)
 
  # Command dalam mysql
  * **untuk masuk ke database**
@@ -43,17 +43,17 @@ SHOW DATABASES;
 ```sh
 SHOW TABLES;
 ```
- ![logo](https://github.com/rioprayogo/DevOps-Engineer/blob/main/week-1/asset/db3.png)
- ![logo](https://github.com/rioprayogo/DevOps-Engineer/blob/main/week-1/asset/db4.png)
+ ![logo](https://raw.githubusercontent.com/DevOps-Engineer/blob/main/week-1/asset/db3.png)
+ ![logo](https://raw.githubusercontent.com/DevOps-Engineer/blob/main/week-1/asset/db4.png)
 
  * Lakukan config pada database mysql ubuh bind-address menjadi `0.0.0.0` pada file
  ```sh
  sudo nano /etc/mysql/mysql.conf.d/mysqld.cnf
  ```
-  ![logo](https://github.com/rioprayogo/DevOps-Engineer/blob/main/week-1/asset/db5.png)
+  ![logo](https://raw.githubusercontent.com/DevOps-Engineer/blob/main/week-1/asset/db5.png)
 
 
  * Hasil tables setelah di migrasi dari backend
-  ![logo](https://github.com/rioprayogo/DevOps-Engineer/blob/main/week-1/asset/db6.png)
+  ![logo](https://raw.githubusercontent.com/DevOps-Engineer/blob/main/week-1/asset/db6.png)
 
 
