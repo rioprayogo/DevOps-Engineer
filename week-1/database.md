@@ -14,7 +14,6 @@ sudo apt install mysql-server
 sudo mysql_secure_installation
 ```
  ![logo](https://raw.githubusercontent.com/rioprayogo/DevOps-Engineer/main/week-1/assets/db2.png)
- ![logo](https://https://raw.githubusercontent.com/rioprayogo/DevOps-Engineer/main/week-1/assets/db3.png)
 
  # Command dalam mysql
  * **untuk masuk ke database**
