@@ -2,4 +2,3 @@
 ## Week 2
 - [docker](docker.md)
 - [cicd jenkins](jenkins.md)
-- [nginx](nginx.md)
