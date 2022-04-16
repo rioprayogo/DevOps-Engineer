@@ -32,6 +32,8 @@ sudo apt install jenkins
 
 ![logo](https://raw.githubusercontent.com/rioprayogo/DevOps-Engineer/main/week-2/assets/jenkins2.png)
 ![logo](https://raw.githubusercontent.com/rioprayogo/DevOps-Engineer/main/week-2/assets/jenkins3.png)
+
+* **download plugin yang dibutuhkan**
 ![logo](https://raw.githubusercontent.com/rioprayogo/DevOps-Engineer/main/week-2/assets/jenkins4.png)
 ![logo](https://raw.githubusercontent.com/rioprayogo/DevOps-Engineer/main/week-2/assets/jenkins5.png)
 
