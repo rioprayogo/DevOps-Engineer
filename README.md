@@ -7,8 +7,8 @@
 - [Baca lebih lanjut](week-1/README.md)
 
 ## Minggu ke 2
-- Setup git & Ssh key
-- Setup database & Deploy aplikasi backend
+- Docker
+- cicd Jenkins
 - [Baca lebih lanjut](week-2/README.md)
 
 ## Minggu ke 3
