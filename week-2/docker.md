@@ -45,7 +45,12 @@ sudo usermod -aG docker ${USER}
 `docker run --name (namacontainer) -p (port) -e (environment) -v (volume) (image)`
 `docker build -t (name):(tagname)`
 `docker compose up -d`
-
+`docker compose down`
+`docker images`
+`docker image rm (nama)`
+`docker container ps -a`
+`docker exec -it (nama container) bash`
+`docker logs (nama container)`
 
 * Persiapkan aplikasi frontend dan backend
 **frontend**

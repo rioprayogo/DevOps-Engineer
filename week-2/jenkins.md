@@ -32,4 +32,77 @@ sudo apt install jenkins
 
 ![logo](https://raw.githubusercontent.com/rioprayogo/DevOps-Engineer/main/week-2/assets/jenkins2.png)
 ![logo](https://raw.githubusercontent.com/rioprayogo/DevOps-Engineer/main/week-2/assets/jenkins3.png)
+![logo](https://raw.githubusercontent.com/rioprayogo/DevOps-Engineer/main/week-2/assets/jenkins4.png)
+![logo](https://raw.githubusercontent.com/rioprayogo/DevOps-Engineer/main/week-2/assets/jenkins5.png)
+
+* **Buat akun untuk login kedalam jenkins**
+![logo](https://raw.githubusercontent.com/rioprayogo/DevOps-Engineer/main/week-2/assets/jenkins6.png)
+
+* **Buat kredensial untuk jenkins agar bisa terhubung ke server yang dituju**
+![logo](https://raw.githubusercontent.com/rioprayogo/DevOps-Engineer/main/week-2/assets/jenkins7.png)
+
+* **Tambahakan webhook agar jenkins dapat menerima perubahan pada repository github**
+![logo](https://raw.githubusercontent.com/rioprayogo/DevOps-Engineer/main/week-2/assets/jenkins8.png)
+
+
+* **Buat job baru untuk memulai pekerjaan**
+![logo](https://raw.githubusercontent.com/rioprayogo/DevOps-Engineer/main/week-2/assets/jenkins9.png)
+
+* **konfigurasikan job**
+
+![logo](https://raw.githubusercontent.com/rioprayogo/DevOps-Engineer/main/week-2/assets/jenkins10.png)
+![logo](https://raw.githubusercontent.com/rioprayogo/DevOps-Engineer/main/week-2/assets/jenkins11.png)
+
+* **conotoh syntax pipeline Jenkinsfile**
+```sh
+def secret = 'app'
+def server = 'app-rio@103.183.75.71'
+def directory = 'wayshub-frontend'
+def branch = 'main'
+
+pipeline{
+    agent any
+    stages{
+        stage ('docker delete & git pull'){
+            steps{
+                sshagent([secret]) {
+                    sh """ssh -o StrictHostKeyChecking=no ${server} << EOF
+                    cd ${directory}
+                    docker-compose down
+                    docker system prune -f
+                    git pull origin ${branch}
+                    exit
+                    EOF"""
+                }
+            }
+        }
+        stage ('docker compose'){
+            steps{
+                sshagent([secret]) {
+                    sh """ssh -o StrictHostKeyChecking=no ${server} << EOF
+                    cd ${directory}
+                    docker build -t rioprayogo/frontend:v.2 .
+                    exit
+                    EOF"""
+                }
+            }
+        }
+        stage ('docker up'){
+            steps{
+                sshagent([secret]) {
+                    sh """ssh -o StrictHostKeyChecking=no ${server} << EOF
+                    cd ${directory}
+                    docker-compose up -d
+                    exit
+                    EOF"""
+                }
+            }
+        }
+    }
+}
+```
+
+
+
+
 
