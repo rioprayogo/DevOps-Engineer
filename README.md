@@ -9,6 +9,7 @@
 ## Minggu ke 2
 - Docker
 - cicd Jenkins
+- Web server
 - [Baca lebih lanjut](week-2/README.md)
 
 ## Minggu ke 3
