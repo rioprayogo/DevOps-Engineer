@@ -124,4 +124,13 @@ services:
 docker compose build -d
 ```
 
+* **Database menggunakan docker**
+- Jalan kan `docker pull mysql:latest`
+
+* **jalankan docker run untuk memulai database**
+```sh
+docker run -d --name database -p 3306:3306 -v $pwd/data:/var/lib/mysql -e MYSQL_ROOT-PASSWORD=123Qweasd -e MYSQL-DATABASE=wayshub mysql:latest
+```
+![logo](https://raw.githubusercontent.com/rioprayogo/DevOps-Engineer/main/week-2/assets/database1.png)
+
 
