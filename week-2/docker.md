@@ -2,7 +2,7 @@
 ## Week 2
 ### Docker
 
-* `**install docker & docker compose**`
+* **install docker & docker compose**
 `Update your existing packages:`
 ```sh
 sudo apt update
