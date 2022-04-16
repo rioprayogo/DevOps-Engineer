@@ -55,6 +55,9 @@ sudo apt install jenkins
 ![logo](https://raw.githubusercontent.com/rioprayogo/DevOps-Engineer/main/week-2/assets/jenkins10.png)
 ![logo](https://raw.githubusercontent.com/rioprayogo/DevOps-Engineer/main/week-2/assets/jenkins11.png)
 
+* **contoh pipeline jenkins**
+![logo](https://raw.githubusercontent.com/rioprayogo/DevOps-Engineer/main/week-2/assets/jenkins12.png)
+
 * **conotoh syntax pipeline Jenkinsfile**
 ```sh
 def secret = 'app'
